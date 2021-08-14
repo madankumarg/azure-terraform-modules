@@ -7,7 +7,6 @@ variable "location" {
 variable "tags" {
   type = map(any)
 }
-########## Storage Account ##########
 variable "storage_account" {
   type = list(any)
 }
